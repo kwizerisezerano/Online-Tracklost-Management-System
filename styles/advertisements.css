@@ -11,5 +11,92 @@ body {
   font-family: sans-serif;
   background-color: #f8f7fd;
 }
+nav {
+  padding: 0 1rem;
+  display: flex;
+  margin-top: 1rem;
+}
+.menu {
+  display: none;
+}
+.logo {
+  /* background-color: aqua; */
+  width: 2rem;
+  height: 2rem;
+  /* display: flex; */
+}
+.bar {
+  margin-left: 30%;
+}
+.logo img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 10rem;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  justify-content: center;
+  gap: 2rem;
+}
+.advertise {
+  background-color: #d9d9d9;
+  height: 14rem;
+  width: 11rem;
+  /* justify-content: center;
+  align-items: center; */
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 2rem; */
+  align-items: center;
+  text-align: center;
+  gap: 3rem;
+}
+.advert {
+  background-color: #d9d9d9;
+  height: 17rem;
+  width: 8rem;
+  border-radius: 5px;
+  border: solid 2px #7984e3;
+  /* justify-content: center; */
+}
+.advert img {
+  width: 6rem;
+  height: 8rem;
+  margin-top: -3rem;
+}
+.advert button {
+  background-color: #7984e3;
+  width: 70%;
+  height: 25%;
+  border: none;
+  border-radius: 5%;
+}
+.advert a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.docs {
+  background-color: black;
+  height: 10rem;
+  width: 11rem;
+}
+.documents {
+  background-color: yellowgreen;
+  height: 10rem;
+  width: 11rem;
+}
+.trainings {
+  background-color: blue;
+  height: 10rem;
+  width: 11rem;
+}
+.train {
+  background-color: chocolate;
+  height: 10rem;
+  width: 11rem;
+}
 @media (min-width: 1024px) {
 }
