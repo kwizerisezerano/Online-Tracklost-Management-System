@@ -41,32 +41,63 @@ section {
   justify-content: center;
   gap: 2rem;
 }
-.advertise {
+.advertise,
+.docs,
+.trainings,
+.footer {
   background-color: #d9d9d9;
   height: 14rem;
   width: 11rem;
-  /* justify-content: center;
-  align-items: center; */
   display: flex;
   flex-direction: column;
-  /* margin-top: 2rem; */
+
   align-items: center;
   text-align: center;
   gap: 3rem;
 }
-.advert {
+.docs,
+.trainings {
+  gap: 1rem;
+}
+
+.advert,
+.documents,
+.train {
   background-color: #d9d9d9;
   height: 17rem;
   width: 8rem;
   border-radius: 5px;
   border: solid 2px #7984e3;
-  /* justify-content: center; */
+  justify-content: center;
+}
+.documents img,
+.train video {
+  width: 7.5rem;
+  height: 7rem;
+}
+.documents button,
+.train button {
+  background-color: #7984e3;
+  width: 80%;
+  height: 25%;
+  border: none;
+  border-radius: 5%;
+}
+.train #start {
+  margin-top: -40rem;
+}
+.documents i,
+.train i {
+  color: white;
+  /* margin-left: auto; */
 }
 .advert img {
   width: 6rem;
   height: 8rem;
   margin-top: -3rem;
+  /* justify-items: center; */
 }
+
 .advert button {
   background-color: #7984e3;
   width: 70%;
@@ -74,30 +105,33 @@ section {
   border: none;
   border-radius: 5%;
 }
-.advert a {
+
+.advert a,
+.documents a,
+.train a {
   color: white;
   text-align: center;
   text-decoration: none;
 }
-.docs {
-  background-color: black;
-  height: 10rem;
-  width: 11rem;
+footer {
+  padding: 0 1rem;
+  display: flex;
+  background-color: #7984e3;
+  margin-top: 3rem;
+  /* font-size: 12px; */
+  color: white;
+  /* flex-direction: column; */
+  gap: 2rem;
 }
-.documents {
-  background-color: yellowgreen;
-  height: 10rem;
-  width: 11rem;
+.follow p,
+.partners p {
+  font-size: 12px;
 }
-.trainings {
-  background-color: blue;
-  height: 10rem;
-  width: 11rem;
+.copyright {
+  margin-top: 10rem;
+  display: flex;
+  margin-left: -12rem;
+  font-size: 0.9rem;
 }
-.train {
-  background-color: chocolate;
-  height: 10rem;
-  width: 11rem;
-}
-@media (min-width: 1024px) {
+. @media (min-width: 1024px) {
 }
