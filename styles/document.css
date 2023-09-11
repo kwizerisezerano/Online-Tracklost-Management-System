@@ -6,6 +6,11 @@
 a {
   font-family: sans-serif;
 }
+.tracklost {
+  /* background-color: aqua; */
+  display: flex;
+  margin-left: 10%;
+}
 body {
   line-height: 1.5;
   font-family: sans-serif;
@@ -23,11 +28,11 @@ nav {
   /* background-color: aqua; */
   width: 2rem;
   height: 2rem;
-  margin-right: auto;
+  /* margin-right: auto; */
   /* display: flex; */
 }
 .bar {
-  margin-left: 30%;
+  margin-left: 10%;
 }
 .logo img {
   width: 3rem;
@@ -39,79 +44,85 @@ section {
   flex-direction: column;
   margin-top: 2rem;
   justify-content: center;
-  gap: 2rem;
+  gap: 3rem;
+  align-items: center;
 }
 .advertise,
 .docs,
 .trainings,
 .footer {
   background-color: #d9d9d9;
-  height: 14rem;
-  width: 11rem;
+  height: 35rem;
+  width: 28rem;
   display: flex;
   flex-direction: column;
-
   align-items: center;
   text-align: center;
   gap: 3rem;
 }
-.docs,
+/* .docs,
 .trainings {
   gap: 1rem;
-}
+} */
 
 .advert,
 .documents,
 .train {
   background-color: #d9d9d9;
-  height: 17rem;
-  width: 8rem;
+  height: 28rem;
+  width: 23rem;
   border-radius: 5px;
-  border: solid 2px #7984e3;
+  border: solid 2px white;
   justify-content: center;
 }
 .documents img,
 .train video {
-  width: 7.5rem;
-  height: 7rem;
+  width: 22rem;
+  height: 22rem;
 }
 .documents button,
-.train button {
+.train button,
+.advert button {
   background-color: #7984e3;
   width: 80%;
-  height: 25%;
+  height: 15%;
   border: none;
-  border-radius: 5%;
+  border-radius: 4%;
 }
+/* .train h1,
+.documents h1,
+.advert h1 {
+  margin-top: 2rem;
+} */
 .train #start {
   margin-top: -40rem;
 }
-.documents i,
-.train i {
-  color: white;
-  /* margin-left: auto; */
-}
+
 .advert img {
-  width: 6rem;
-  height: 8rem;
-  margin-top: -3rem;
+  width: 22rem;
+  height: 22rem;
+  /* margin-top: 1rem; */
   /* justify-items: center; */
 }
 
-.advert button {
+/* .advert button {
   background-color: #7984e3;
   width: 70%;
   height: 25%;
   border: none;
   border-radius: 5%;
-}
+} */
 
 .advert a,
+.advert i,
 .documents a,
-.train a {
+.documents i,
+.train a,
+.train i {
   color: white;
   text-align: center;
   text-decoration: none;
+  font-size: 250%;
 }
 footer {
   padding: 0 1rem;
@@ -121,17 +132,16 @@ footer {
   /* font-size: 12px; */
   color: white;
   /* flex-direction: column; */
-  gap: 2rem;
+  gap: 5rem;
+  height: 28rem;
+  font-size: 180%;
 }
-.follow p,
-.partners p {
-  font-size: 12px;
-}
+
 .copyright {
-  margin-top: 10rem;
+  margin-top: 22rem;
   display: flex;
-  margin-left: -12rem;
-  font-size: 0.9rem;
+  margin-left: -30rem;
+  /* font-size: 0.9rem; */
 }
 . @media (min-width: 1024px) {
 }
